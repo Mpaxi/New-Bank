@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckAccountTransaction.API", "CheckAccountTransaction.API\CheckAccountTransaction.API.csproj", "{ED904965-7400-412B-BD92-D3A32A943E41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED904965-7400-412B-BD92-D3A32A943E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED904965-7400-412B-BD92-D3A32A943E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED904965-7400-412B-BD92-D3A32A943E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED904965-7400-412B-BD92-D3A32A943E41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44B04340-169C-4B6F-AFD8-FA2C13632265}
+	EndGlobalSection
+EndGlobal
