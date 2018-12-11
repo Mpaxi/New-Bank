@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NB.CheckingAccount.API</name>
+    </assembly>
+    <members>
+        <member name="T:NB.CheckingAccount.API.Startup">
+            TODO MOver para um Nuget
+        </member>
+    </members>
+</doc>

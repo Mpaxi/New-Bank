@@ -1,0 +1,10 @@
+C:\Git\Pessoal\CheckingAccount\NB.CheckingAccount\bin\Debug\NB.CheckingAccount.API.dll
+C:\Git\Pessoal\CheckingAccount\NB.CheckingAccount\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Git\Pessoal\CheckingAccount\NB.CheckingAccount\bin\Debug\NB.CheckingAccount.Repository.dll
+C:\Git\Pessoal\CheckingAccount\NB.CheckingAccount\bin\Debug\NB.CheckingAccount.Domain.dll
+C:\Git\Pessoal\CheckingAccount\NB.CheckingAccount\bin\Debug\NB.CheckingAccount.API.pdb
+C:\Git\Pessoal\CheckingAccount\NB.CheckingAccount\bin\Debug\NB.CheckingAccount.API.xml
+C:\Git\Pessoal\CheckingAccount\NB.CheckingAccount\bin\Debug\NB.CheckingAccount.Repository.pdb
+C:\Git\Pessoal\CheckingAccount\NB.CheckingAccount\bin\Debug\NB.CheckingAccount.Domain.pdb
+C:\Git\Pessoal\CheckingAccount\NB.CheckingAccount\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\Git\Pessoal\CheckingAccount\NB.CheckingAccount\obj\Debug\docker-compose.dcproj.CopyComplete

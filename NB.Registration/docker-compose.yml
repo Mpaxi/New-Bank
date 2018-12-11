@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  nb.registration.api:
+    image: registration
+    build:
+      context: .
+      dockerfile: NB.Registration.API/Dockerfile

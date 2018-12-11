@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  nb.checkingaccount.api:
+    image: checking-account
+    build:
+      context: .
+      dockerfile: NB.CheckingAccount.API/Dockerfile

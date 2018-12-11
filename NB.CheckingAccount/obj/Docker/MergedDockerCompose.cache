@@ -1,0 +1,19 @@
+services:
+  nb.checkingaccount.api:
+    build:
+      context: C:\Git\Pessoal\CheckingAccount\NB.CheckingAccount
+      dockerfile: NB.CheckingAccount.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44326'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: checking-account
+    ports:
+    - published: 32152
+      target: 80
+    - published: 44326
+      target: 443
+    volumes:
+    - C:\Users\murilo.paxi\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\murilo.paxi\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
