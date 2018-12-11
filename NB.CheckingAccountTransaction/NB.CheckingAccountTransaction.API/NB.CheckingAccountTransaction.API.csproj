@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+    <UserSecretsId>2274f9f8-5a39-4718-85ed-c677fbd85be3</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="5.1.5" />
+    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="5.1.5" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="5.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.0" />
+    <PackageReference Include="Ralms.EntityFrameworkCore.Extensions" Version="1.0.5" />
+    <PackageReference Include="RedLock.net" Version="2.2.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.0.519" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NB.CheckingAccountTransaction.Domain\NB.CheckingAccountTransaction.Domain.csproj" />
+    <ProjectReference Include="..\NB.CheckingAccountTransaction.Infrastructure\NB.CheckingAccountTransaction.Infrastructure.csproj" />
+    <ProjectReference Include="..\NB.CheckingAccountTransaction.Repository\NB.CheckingAccountTransaction.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
